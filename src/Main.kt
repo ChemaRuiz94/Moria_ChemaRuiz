@@ -1,3 +1,6 @@
+import Metodos
+
 fun main() {
+    
 
 }

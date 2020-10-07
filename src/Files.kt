@@ -3,10 +3,16 @@ import java.io.IOException
 
 class Files(var texto: String){
 
+    /**
+     * Añadir texto a un String
+     */
    fun añadirTexto (newText: String){
        texto += newText
    }
 
+    /**
+     * Añidr un String al fichero
+     */
     fun escribirFile(){
         try {
             val fw = FileWriter("MinasDeMoria.txt", true)
