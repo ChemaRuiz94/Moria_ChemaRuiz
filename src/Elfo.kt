@@ -1,13 +1,16 @@
-import Metodos
+class Elfo(nombre: String,var carcaj: Int ) : Personaje(nombre){
 
-class Elfo(nombre: String) : Personaje(nombre){
-    var carcaj: Int =0
+    constructor(nombre: String){
+        this.nombre = nombre
+        this.carcaj = generaAleatorio(1,Finals.FLECHASMAX)
+    }
+
 
     fun lanzarFlechas(){
-
+        this.carcaj--
     }
 
     fun recargarFlechas(flechas:Int){
-
+        this.carcaj = carcaj+generaAleatorio(1,Finals.FLECHASMAX)
     }
 }

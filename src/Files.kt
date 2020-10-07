@@ -6,7 +6,7 @@ class Files(var texto: String){
     /**
      * Añadir texto a un String
      */
-   fun añadirTexto (newText: String){
+   fun addTexto (newText: String){
        texto += newText
    }
 
