@@ -1,22 +1,15 @@
 import java.io.FileWriter
 import java.io.IOException
 
-class Files(var texto: String){
-
-    /**
-     * Añadir texto a un String
-     */
-   fun addTexto (newText: String){
-       texto += newText
-   }
+class Files(){
 
     /**
      * Añidr un String al fichero
      */
-    fun escribirFile(){
+    fun escribirFile(text:String){
         try {
             val fw = FileWriter("MinasDeMoria.txt", true)
-            fw.write(texto)
+            fw.write(text)
             fw.close()
         }catch (ex: IOException){}
     }

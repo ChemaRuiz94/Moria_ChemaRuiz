@@ -3,6 +3,7 @@ open class Personaje {
     var estado: Boolean
     var victorias: Int = 0;
     var derrotas: Int = 0;
+    var fi : Files= Files()
 
     constructor(nombre: String){
         this.nombre = nombre
@@ -12,10 +13,10 @@ open class Personaje {
     fun huir (){
         derrotas++
         if (generaAleatorio(1,100)<=Finals.HUIR ){
-            //println
+            fi.escribirFile("La compañia consigue huir de la sala \n")
         }else{
-            //println
-            this.estado=true
+            fi.escribirFile("La compañia perece y la tierra media esta condenada... \n")
+            this.estado=false
         }
     }
 }

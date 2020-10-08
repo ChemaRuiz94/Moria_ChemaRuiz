@@ -1,16 +1,16 @@
-class Mago(nombre: String,var palo: Int) : Personaje(nombre){
+class Mago(nombre: String,var vara: Int) : Personaje(nombre){
 
     constructor(nombreM: String){
         this.nombre = nombreM
-        this.palo = generaAleatorio(1,Finals.ENERGIAMAX)
+        this.vara = generaAleatorio(1,Finals.ENERGIAMAX)
 
     }
 
     fun recargarVara(energia: Int){
-        this.palo += generaAleatorio(1,Finals.ENERGIAMAX)
+        this.vara += generaAleatorio(1,Finals.ENERGIAMAX)
     }
 
     fun poderVara():Int{
-        return this.palo
+        return this.vara
     }
 }
