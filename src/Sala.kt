@@ -4,7 +4,7 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
     var fi : Files= Files()
 
     init {
-        fi.escribirFile("La compañia se dispone a entrar en una sala")
+
         when(peligro){
             1-> accion()
             2-> habilidad()
@@ -24,7 +24,7 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
 
             if (aux <= 90 ){
 
-                fi.escribirFile("La compañia supera el peligro de la sala "+this.num+  "y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n La compañia supera el peligro de la sala  " + this.num+  " , de habilidad, y pasa a la siguiente estancia \n")
 
                 pers.victorias ++
             } else{
@@ -32,7 +32,7 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
             }
         }else {
             if (aux <=20){
-                fi.escribirFile("La compañia supera el peligro de la sala "+this.num+  "y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n La compañia supera el peligro de la sala  "+ this.num+  ", de habilidad, y pasa a la siguiente estancia \n")
                 pers.victorias ++
             }else{
                 (pers as Hobbit).huir()
@@ -59,7 +59,7 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
 
         (pers as Elfo).recargarFlechas(aux)
 
-        fi.escribirFile("La compañia supera el peligro de la sala "+this.num+  "y pasa a la siguiente estancia \n")
+        fi.escribirFile("\n La compañia supera el peligro de la sala  " + this.num+  ", de acción, y pasa a la siguiente estancia \n")
         pers.victorias ++
     }
 
@@ -72,19 +72,19 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
         var prob : Int = generaAleatorio(1,100)
 
         if ((pers as Mago).poderVara()>energiaMalig){
-            fi.escribirFile("La compañia supera el peligro de la sala "+this.num+  "y pasa a la siguiente estancia \n")
+            fi.escribirFile("\n La compañia supera el peligro de la sala " + this.num+  ", de mágia, y pasa a la siguiente estancia \n")
             pers.victorias ++
         }else if((pers as Mago).poderVara()==energiaMalig){
 
             if (prob<=60){
-                fi.escribirFile("La compañia supera el peligro de la sala "+this.num+  "y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n La compañia supera el peligro de la sala  "+ this.num+  ", de mágia, y pasa a la siguiente estancia \n")
                 pers.victorias ++
             }else{
                 (pers as Mago).huir()
             }
         } else {
             if (prob<=30){
-                fi.escribirFile("La compañia supera el peligro de la sala "+this.num+  "y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n La compañia supera el peligro de la sala  "+ this.num+  ", de mágia, y pasa a la siguiente estancia \n")
                 pers.victorias ++
             }else{
                 (pers as Mago).huir()

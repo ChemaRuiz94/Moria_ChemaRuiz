@@ -13,9 +13,9 @@ open class Personaje {
     fun huir (){
         derrotas++
         if (generaAleatorio(1,100)<=Finals.HUIR ){
-            fi.escribirFile("La compañia consigue huir de la sala \n")
+            fi.escribirFile("\n La compañia consigue huir de la sala \n")
         }else{
-            fi.escribirFile("La compañia perece y la tierra media esta condenada... \n")
+            fi.escribirFile("\n La compañia perece y la tierra media esta condenada... \n")
             this.estado=false
         }
     }

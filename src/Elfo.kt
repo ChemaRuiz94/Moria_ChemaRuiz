@@ -1,9 +1,6 @@
 class Elfo(nombre: String,var carcaj: Int ) : Personaje(nombre){
 
-    constructor(nombre: String){
-        this.nombre = nombre
-        this.carcaj = generaAleatorio(1,Finals.FLECHASMAX)
-    }
+
 
 
     fun lanzarFlechas(){
