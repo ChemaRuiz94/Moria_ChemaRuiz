@@ -1,7 +1,4 @@
-class Elfo(nombre: String,var carcaj: Int ) : Personaje(nombre){
-
-
-
+class Elfo(nombre: String,var carcaj: Int) : Personaje(nombre,Estado.vivo){
 
     fun lanzarFlechas(){
         this.carcaj--

@@ -1,4 +1,4 @@
-class Hobbit(nombre: String) : Personaje(nombre){
+class Hobbit(nombre: String) : Personaje(nombre,Estado.vivo){
     var anillo: Boolean = false
 
     fun ponerseAnillo(){
@@ -8,4 +8,5 @@ class Hobbit(nombre: String) : Personaje(nombre){
     fun quitarseAnillo(){
         this.anillo = false
     }
+
 }

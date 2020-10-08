@@ -1,10 +1,13 @@
 import java.io.FileWriter
 import java.io.IOException
 
+/**
+ * Clase que nos permitirá escribir en fichero
+ */
 class Files(){
 
     /**
-     * Añidr un String al fichero
+     * Metodo para Añidr un String al fichero
      */
     fun escribirFile(text:String){
         try {

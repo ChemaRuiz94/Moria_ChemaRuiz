@@ -1,4 +1,8 @@
-import main
+/**
+ * Clase sala compuesta de un número de sala
+ * y tres personajes
+ */
+
 class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
 
     var fi : Files= Files()
@@ -16,15 +20,16 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
      * Metodo para las salas de habilidad
      */
     private fun habilidad(){
+        (pers as Hobbit).quitarseAnillo()//deducimos que entra en la sala con el anillo quitado
         var aux = generaAleatorio(1,100)//variable para saber el porcentaje de las veces que superan el peligro
-        var anillo = generaAleatorio(1,100) //para saber si se pone el anillo o no
+        var anillo = generaAleatorio(1,100) //para saber si se pone el anillo o no en esta sala
 
         if (anillo <= 50 ) {
             (pers as Hobbit).ponerseAnillo()
 
             if (aux <= 90 ){
 
-                fi.escribirFile("\n La compañia supera el peligro de la sala  " + this.num+  " , de habilidad, y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n Frodo se pone el anillo y supera el peligro de la sala  " + this.num+  " , de habilidad, y pasa a la siguiente estancia \n")
 
                 pers.victorias ++
             } else{
@@ -32,7 +37,7 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
             }
         }else {
             if (aux <=20){
-                fi.escribirFile("\n La compañia supera el peligro de la sala  "+ this.num+  ", de habilidad, y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n Frodo no se pone el anillo pero supera el peligro de la sala  "+ this.num+  ", de habilidad, y pasa a la siguiente estancia \n")
                 pers.victorias ++
             }else{
                 (pers as Hobbit).huir()
@@ -59,7 +64,7 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
 
         (pers as Elfo).recargarFlechas(aux)
 
-        fi.escribirFile("\n La compañia supera el peligro de la sala  " + this.num+  ", de acción, y pasa a la siguiente estancia \n")
+        fi.escribirFile("\n Legolas derrota a todos los enemigos de la sala  " + this.num+  ", de acción, y pasa a la siguiente estancia \n")
         pers.victorias ++
     }
 
@@ -72,19 +77,19 @@ class Sala (var num:Int, var peligro: Int, var pers : Personaje) {
         var prob : Int = generaAleatorio(1,100)
 
         if ((pers as Mago).poderVara()>energiaMalig){
-            fi.escribirFile("\n La compañia supera el peligro de la sala " + this.num+  ", de mágia, y pasa a la siguiente estancia \n")
+            fi.escribirFile("\n Gandalf tiene mas poder y supera el peligro de la sala" + this.num+  ", de mágia, y pasa a la siguiente estancia \n")
             pers.victorias ++
         }else if((pers as Mago).poderVara()==energiaMalig){
 
             if (prob<=60){
-                fi.escribirFile("\n La compañia supera el peligro de la sala  "+ this.num+  ", de mágia, y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n Gandalf está a la mitad de poder pero supera de la sala  "+ this.num+  ", de mágia, y pasa a la siguiente estancia \n")
                 pers.victorias ++
             }else{
                 (pers as Mago).huir()
             }
         } else {
             if (prob<=30){
-                fi.escribirFile("\n La compañia supera el peligro de la sala  "+ this.num+  ", de mágia, y pasa a la siguiente estancia \n")
+                fi.escribirFile("\n Gandal sin fuerzas consigue superar el peligro de la sala  "+ this.num+  ", de mágia, y pasa a la siguiente estancia \n")
                 pers.victorias ++
             }else{
                 (pers as Mago).huir()

@@ -1,22 +1,19 @@
-open class Personaje {
-    var nombre: String
-    var estado: Boolean
+open class Personaje (var nombre: String,var estado: Estado ) {
     var victorias: Int = 0;
     var derrotas: Int = 0;
     var fi : Files= Files()
 
-    constructor(nombre: String){
-        this.nombre = nombre
-        this.estado = true
-    }
 
-    fun huir (){
+
+   open fun huir (){
         derrotas++
         if (generaAleatorio(1,100)<=Finals.HUIR ){
             fi.escribirFile("\n La compañia consigue huir de la sala \n")
         }else{
-            fi.escribirFile("\n La compañia perece y la tierra media esta condenada... \n")
-            this.estado=false
+            fi.escribirFile( "DERROTA->" + this.nombre+" perece y la tierra media esta condenada... \n")
+            this.estado=Estado.muerto
         }
     }
 }
+
+enum class Estado {vivo, muerto}
