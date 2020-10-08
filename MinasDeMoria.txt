@@ -292,4 +292,157 @@ GANDALF: Sólo nos queda una opción ahora, enfrentarnos a la larga oscuridad de
 
  La compañia consigue huir de la sala 
 
-La compañia ha conseguido salir de Moria
+La compañia ha conseguido salir de MoriaGANDALF: Sólo nos queda una opción ahora, enfrentarnos a la larga oscuridad de 
+ Moria. Manteneos alerta, hay seres más antiguos y viles que los orcos en las profundidades 
+ del mundo. Silencio ahora, son cuatro jornadas de viaje hasta el 
+ otro lado, confiemos en que nuestra presencia pase inadvertida
+------------------------------------------------------------------------------------
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 1------------------------------
+
+ La compañia supera el peligro de la sala  1, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 2------------------------------
+
+ La compañia supera el peligro de la sala 2, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 3------------------------------
+
+ La compañia perece y la tierra media esta condenada... 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 4------------------------------
+
+ La compañia supera el peligro de la sala  4, de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 5------------------------------
+
+ La compañia supera el peligro de la sala  5, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 6------------------------------
+
+ La compañia supera el peligro de la sala 6, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 7------------------------------
+
+ La compañia supera el peligro de la sala 7, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 8------------------------------
+
+ La compañia supera el peligro de la sala 8, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 9------------------------------
+
+ La compañia supera el peligro de la sala  9, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 10------------------------------
+
+ La compañia supera el peligro de la sala  10, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 11------------------------------
+
+ La compañia supera el peligro de la sala 11, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 12------------------------------
+
+ La compañia supera el peligro de la sala  12, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 13------------------------------
+
+ La compañia supera el peligro de la sala 13, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 14------------------------------
+
+ La compañia supera el peligro de la sala  14 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 15------------------------------
+
+ La compañia supera el peligro de la sala 15, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 16------------------------------
+
+ La compañia consigue huir de la sala 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 17------------------------------
+
+ La compañia supera el peligro de la sala  17, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 18------------------------------
+
+ La compañia supera el peligro de la sala 18, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 19------------------------------
+
+ La compañia supera el peligro de la sala  19 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 20------------------------------
+
+ La compañia supera el peligro de la sala 20, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 21------------------------------
+
+ La compañia supera el peligro de la sala  21 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 22------------------------------
+
+ La compañia supera el peligro de la sala 22, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 23------------------------------
+
+ La compañia supera el peligro de la sala  23, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 24------------------------------
+
+ La compañia supera el peligro de la sala  24 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 25------------------------------
+
+ La compañia supera el peligro de la sala  25 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 26------------------------------
+
+ La compañia supera el peligro de la sala  26, de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 27------------------------------
+
+ La compañia supera el peligro de la sala  27, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 28------------------------------
+
+ La compañia supera el peligro de la sala  28 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 29------------------------------
+
+ La compañia supera el peligro de la sala 29, de mágia, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 30------------------------------
+
+ La compañia supera el peligro de la sala  30, de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 31------------------------------
+
+ La compañia supera el peligro de la sala  31, de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 32------------------------------
+
+ La compañia supera el peligro de la sala  32, de acción, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 33------------------------------
+
+ La compañia supera el peligro de la sala  33 , de habilidad, y pasa a la siguiente estancia 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 34------------------------------
+
+ La compañia consigue huir de la sala 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 35------------------------------
+
+ La compañia consigue huir de la sala 
+
+ -----------------LA COMPAÑIA HA ENTRADO EN LA SALA 36------------------------------
+
+ La compañia supera el peligro de la sala 36, de mágia, y pasa a la siguiente estancia 
+------------------------------------------------------------------------------------
+La compañia ha conseguido salir de Moria, y esta vez Gandalf derroto al Balrog
+ Frodo ha conseguido 11 victorias y 4 derrotas
+ Legolas ha conseguido 9 victorias y 0 derrotas
+ Gandalf ha conseguido 12 victoiras y 0 derrotas
